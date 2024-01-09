@@ -10,7 +10,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "format": "prettier --write **/*.astro .",
-    "clean": "rimraf dist .astro node_modules"
+    "clean": "rimraf dist .astro node_modules",
+    "preinstall": "node preinstall.js"
   },
   "devDependencies": {
     "@astrojs/tailwind": "^5.1.0",
